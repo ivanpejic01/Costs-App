@@ -1,0 +1,57 @@
+.login,
+.login-no-hover {
+  padding: 10px;
+  justify-content: center;
+  align-content: center;
+}
+
+.animations {
+  height: 85%;
+  width: 100%;
+  margin-bottom: 0;
+}
+
+.main-part {
+  height: 85vh;
+}
+
+.container-animations {
+  display: grid;
+  place-items: center;
+}
+
+.slick-slide > div {
+  display: grid;
+  place-items: center;
+  width: 95%;
+  margin-top: 50px;
+  margin-bottom: 0;
+  margin: auto;
+  height: 500px;
+  padding: 0px;
+  background-color: orange;
+}
+
+.animation-description {
+  font-weight: bold;
+  font-size: 50px;
+}
+
+.home-and-login {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  color: black;
+  font-weight: bold;
+  background-color: dodgerblue;
+  height: 15%;
+  margin-bottom: 0;
+}
+
+.login:hover {
+  background-color: lightskyblue;
+}
+
+.login {
+  cursor: pointer;
+}
